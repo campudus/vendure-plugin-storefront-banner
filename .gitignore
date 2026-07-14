@@ -1,0 +1,17 @@
+.idea
+node_modules/
+*.tgz
+
+*.local*
+
+# AI
+.ai
+.claude
+.codex
+.cursor
+.junie
+.openai
+.github/instructions/
+.github/prompts/
+.github/skills/
+HANDOFF*.md

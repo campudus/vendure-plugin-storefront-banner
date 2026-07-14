@@ -1,0 +1,47 @@
+{
+  "name": "@campudus/vendure-plugin-storefront-banner",
+  "version": "0.1.0",
+  "description": "Vendure plugin for managing storefront banners with a rich text editor and a Vendure Dashboard UI.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "CHANGELOG.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/campudus/vendure-plugin-storefront-banner.git"
+  },
+  "publishConfig": { "access": "public" },
+  "author": "Campudus GmbH",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.package.json && cp -r dashboard dist/"
+  },
+  "keywords": ["vendure", "vendure-plugin", "vendure-dashboard", "banner", "storefront"],
+  "peerDependencies": {
+    "@graphql-typed-document-node/core": "^3.0.0",
+    "@tanstack/react-router": "^1.0.0",
+    "@tiptap/core": "^3.0.0",
+    "@tiptap/extension-color": "^3.0.0",
+    "@tiptap/extension-text-style": "^3.0.0",
+    "@tiptap/extension-underline": "^3.0.0",
+    "@tiptap/react": "^3.0.0",
+    "@tiptap/starter-kit": "^3.0.0",
+    "@vendure/common": "^3.5.0",
+    "@vendure/core": "^3.5.0",
+    "@vendure/dashboard": "^3.5.0",
+    "graphql": "^16.0.0",
+    "graphql-tag": "^2.0.0",
+    "lucide-react": "*",
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-colorful": "*",
+    "react-datepicker": "*",
+    "react-hook-form": "^7.0.0",
+    "typeorm": "^0.3.0"
+  }
+}

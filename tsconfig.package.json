@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "node16",
+    "moduleResolution": "node16",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2019",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "sourceMap": true
+  },
+  "include": [
+    "index.ts",
+    "BannerPlugin.ts",
+    "types.ts",
+    "entity/Banner.ts",
+    "api/BannerAdminResolver.ts",
+    "api/BannerShopResolver.ts",
+    "api/graphql/admin/admin-api-extensions.ts",
+    "api/graphql/shop/shop-api-extensions.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

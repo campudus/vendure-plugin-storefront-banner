@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-07-14 23:01+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: dashboard/i18n/field-name-messages.ts:14
+msgid "fieldName.title"
+msgstr "Title"
+
+#. js-lingui-explicit-id
+#: dashboard/i18n/field-name-messages.ts:15
+msgid "fieldName.active"
+msgstr "Active"
+
+#. js-lingui-explicit-id
+#: dashboard/i18n/field-name-messages.ts:16
+msgid "fieldName.startDate"
+msgstr "Start Date"
+
+#. js-lingui-explicit-id
+#: dashboard/i18n/field-name-messages.ts:17
+msgid "fieldName.endDate"
+msgstr "End Date"
+
+#: dashboard/BannerListPage.tsx:52
+msgid "Active"
+msgstr "Active"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:158
+#: dashboard/components/BannerForm/BannerForm.tsx:190
+#: dashboard/components/BannerForm/BannerForm.tsx:201
+#: dashboard/components/BannerForm/BannerForm.tsx:212
+msgid "Background color"
+msgstr "Background color"
+
+#: dashboard/BannerDetailPage.tsx:38
+msgid "Banner created."
+msgstr "Banner created."
+
+#: dashboard/components/BannerForm/BannerForm.tsx:103
+msgid "Banner name"
+msgstr "Banner name"
+
+#: dashboard/BannerDetailPage.tsx:38
+msgid "Banner updated."
+msgstr "Banner updated."
+
+#: dashboard/components/BannerForm/BannerForm.tsx:88
+msgid "Cancel"
+msgstr "Cancel"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:159
+msgid "Closable"
+msgstr "Closable"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:160
+msgid "Close button color"
+msgstr "Close button color"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:91
+msgid "Create"
+msgstr "Create"
+
+#: dashboard/BannerListPage.tsx:74
+msgid "Create new banner"
+msgstr "Create new banner"
+
+#: dashboard/BannerListPage.tsx:40
+#: dashboard/components/BannerForm/BannerForm.tsx:141
+msgid "Description"
+msgstr "Description"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:82
+msgid "Disabled"
+msgstr "Disabled"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:88
+msgid "Discard"
+msgstr "Discard"
+
+#: dashboard/BannerDetailPage.tsx:50
+msgid "Edit banner"
+msgstr "Edit banner"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:82
+msgid "Enabled"
+msgstr "Enabled"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:125
+msgid "End date"
+msgstr "End date"
+
+#: dashboard/BannerListPage.tsx:64
+msgid "Ends on"
+msgstr "Ends on"
+
+#: dashboard/BannerDetailPage.tsx:46
+msgid "Error while saving."
+msgstr "Error while saving."
+
+#: dashboard/BannerListPage.tsx:52
+msgid "Inactive"
+msgstr "Inactive"
+
+#: dashboard/components/BannerRichTextEditor/BannerRichTextEditor.tsx:38
+msgid "Larger"
+msgstr "Larger"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:98
+msgid "Name"
+msgstr "Name"
+
+#: dashboard/BannerDetailPage.tsx:50
+msgid "New banner"
+msgstr "New banner"
+
+#: dashboard/components/BannerRichTextEditor/BannerRichTextEditor.tsx:37
+msgid "Normal"
+msgstr "Normal"
+
+#: dashboard/BannerListPage.tsx:26
+msgid "Promotional banners"
+msgstr "Promotional banners"
+
+#: dashboard/components/BannerRichTextEditor/BannerRichTextEditor.tsx:238
+msgid "Reset color"
+msgstr "Reset color"
+
+#: dashboard/components/BannerRichTextEditor/BannerRichTextEditor.tsx:249
+msgid "Reset formatting"
+msgstr "Reset formatting"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:91
+msgid "Save"
+msgstr "Save"
+
+#: dashboard/components/DatePicker/DatePicker.tsx:56
+msgid "Select date"
+msgstr "Select date"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:164
+msgid "Show action button"
+msgstr "Show action button"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:197
+msgid "Show countdown"
+msgstr "Show countdown"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:208
+msgid "Show newsletter button"
+msgstr "Show newsletter button"
+
+#: dashboard/components/BannerRichTextEditor/BannerRichTextEditor.tsx:36
+msgid "Smaller"
+msgstr "Smaller"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:110
+msgid "Start date"
+msgstr "Start date"
+
+#: dashboard/BannerListPage.tsx:58
+msgid "Starts on"
+msgstr "Starts on"
+
+#: dashboard/BannerListPage.tsx:48
+msgid "Status"
+msgstr "Status"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:169
+msgid "Text"
+msgstr "Text"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:191
+#: dashboard/components/BannerForm/BannerForm.tsx:202
+#: dashboard/components/BannerForm/BannerForm.tsx:213
+#: dashboard/components/BannerRichTextEditor/BannerRichTextEditor.tsx:215
+msgid "Text color"
+msgstr "Text color"
+
+#: dashboard/components/BannerForm/BannerForm.tsx:180
+msgid "URL"
+msgstr "URL"

@@ -1,0 +1,1 @@
+{"version":3,"file":"BannerShopResolver.d.ts","sourceRoot":"","sources":["../../api/BannerShopResolver.ts"],"names":[],"mappings":"AAEA,OAAO,EAAa,cAAc,EAAE,uBAAuB,EAAC,MAAM,eAAe,CAAC;AAElF,OAAO,EAAC,MAAM,EAAC,MAAM,kBAAkB,CAAC;AAExC,qBACa,kBAAkB;IAE3B,OAAO,CAAC,UAAU;gBAAV,UAAU,EAAE,uBAAuB;IAM7C,aAAa,CAAQ,GAAG,EAAE,cAAc;CAOzC"}

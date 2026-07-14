@@ -1,0 +1,79 @@
+.banner-rte-size-select {
+  height: 32px;
+  padding: 0 6px;
+  font-size: 13px;
+  border: 1px solid var(--color-border, hsl(var(--border)));
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+
+  &:focus {
+    outline: none;
+    border-color: hsl(var(--ring));
+  }
+}
+
+.banner-rte-content {
+  min-height: 96px;
+  max-height: 400px;
+  overflow-y: auto;
+  width: 100%;
+  padding: 8px 12px;
+  outline: none;
+  font-size: 14px;
+  line-height: 1.6;
+
+  p {
+    margin: 0 0 0.5em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong,
+  b {
+    font-weight: 700;
+  }
+
+  em,
+  i {
+    font-style: italic;
+  }
+
+  u {
+    text-decoration: underline;
+  }
+
+  s,
+  del,
+  strike {
+    text-decoration: line-through;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    margin: 0 0 0.5em;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: 1.5em;
+    margin: 0 0 0.5em;
+  }
+
+  li {
+    margin-bottom: 0.2em;
+  }
+
+  // Tiptap placeholder
+  &.is-editor-empty:first-child::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: var(--muted-foreground);
+    pointer-events: none;
+    height: 0;
+  }
+}

@@ -18,7 +18,7 @@ Extends the Admin API and Shop API with banner CRUD operations and provides a fu
 npm install github:campudus/vendure-plugin-storefront-banner
 
 # Pin to a specific release:
-npm install github:campudus/vendure-plugin-storefront-banner#v0.1.0
+npm install github:campudus/vendure-plugin-storefront-banner#v0.1.1
 ```
 
 Register the plugin in your Vendure config:
@@ -41,7 +41,7 @@ npm run migration:generate && npm run migration:run
 
 ## Dashboard UI
 
-The plugin registers a "Werbebanner" nav item under the "Erweiterungen" section of the Vendure Dashboard. If your project already defines an "extensions" nav section with a different title, the banner plugin will add a duplicate — you can remove the `navSections` declaration from `dashboard/index.tsx` in that case.
+The plugin registers a nav item under an "Extensions" section of the Vendure Dashboard (both titles are localized via the catalog). If your project already defines an "extensions" nav section with a different title, the banner plugin will add a duplicate — you can remove the `navSections` declaration from `dashboard/index.tsx` in that case.
 
 ## Localization
 

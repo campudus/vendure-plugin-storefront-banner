@@ -1,6 +1,6 @@
 {
   "name": "@campudus/vendure-plugin-storefront-banner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vendure plugin for managing storefront banners with a rich text editor and a Vendure Dashboard UI.",
   "license": "MIT",
   "main": "dist/index.js",

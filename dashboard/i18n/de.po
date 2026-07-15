@@ -14,24 +14,34 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: dashboard/i18n/field-name-messages.ts:14
+#: dashboard/i18n/dashboard-message-ids.ts:16
 msgid "fieldName.title"
 msgstr "Titel"
 
 #. js-lingui-explicit-id
-#: dashboard/i18n/field-name-messages.ts:15
+#: dashboard/i18n/dashboard-message-ids.ts:17
 msgid "fieldName.active"
 msgstr "Aktiv"
 
 #. js-lingui-explicit-id
-#: dashboard/i18n/field-name-messages.ts:16
+#: dashboard/i18n/dashboard-message-ids.ts:18
 msgid "fieldName.startDate"
 msgstr "Startdatum"
 
 #. js-lingui-explicit-id
-#: dashboard/i18n/field-name-messages.ts:17
+#: dashboard/i18n/dashboard-message-ids.ts:19
 msgid "fieldName.endDate"
 msgstr "Enddatum"
+
+#. js-lingui-explicit-id
+#: dashboard/i18n/dashboard-message-ids.ts:30
+msgid "navSection.extensions"
+msgstr "Erweiterungen"
+
+#. js-lingui-explicit-id
+#: dashboard/i18n/dashboard-message-ids.ts:31
+msgid "navMenuItem.banners"
+msgstr "Werbebanner"
 
 #: dashboard/BannerListPage.tsx:52
 msgid "Active"

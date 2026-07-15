@@ -7,7 +7,7 @@ import { GET_BANNER_GQL } from "./graphql";
 
 const EXTENSIONS_NAV_SECTION = {
   id: "extensions",
-  title: "Erweiterungen",
+  title: "navSection.extensions",
   icon: CodeSquareIcon,
 };
 
@@ -23,7 +23,7 @@ defineDashboardExtension({
         sectionId: "extensions",
         id: "banners",
         url: "/banners",
-        title: "Werbebanner",
+        title: "navMenuItem.banners",
         order: 300,
       },
       component: route => <BannersListPage route={route} />,
